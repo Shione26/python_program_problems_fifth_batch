@@ -3,3 +3,4 @@
 # ask for user input
 name = str(input("Input your fullname: "))
 # use python string method to remove extra spaces in the beginning then print
+print(name.strip())
