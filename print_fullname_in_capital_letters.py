@@ -3,4 +3,4 @@
 # ask user for input
 name = input("Enter your fullname: ")
 # convert all input strings to capital letters
-# print output
+print(name.upper())     # print output
