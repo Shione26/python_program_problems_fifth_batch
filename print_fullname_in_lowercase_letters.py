@@ -3,4 +3,5 @@
 # ask for inputs
 name = input("Enter your fullname: ")
 # convert input to lowercase letters
+print(name.lower())
 # print output
