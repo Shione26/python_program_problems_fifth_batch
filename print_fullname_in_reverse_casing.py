@@ -3,4 +3,5 @@
 # ask user for input of fullname in incorrect casing
 name = (input("Enter your fullname in incorrect casing: "))
 # format each character to reverse casing
-# print output
+print(name.swapcase())     # print output
+
