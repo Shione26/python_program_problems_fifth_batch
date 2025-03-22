@@ -5,5 +5,6 @@ name = input("Enter your fullname in incorrect casing: ")
 # convert the input to proper casing
 output = (name.title())
 # remove space
+pascal_case = (output.replace(" ", ""))
 # print output
-print(output)
+print(pascal_case)
