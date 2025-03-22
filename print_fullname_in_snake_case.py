@@ -5,5 +5,6 @@ name = input("Enter your fullname in incorrect casing: ")
 # convert the input to proper casing
 proper_cased = (name.title())
 # replace spaces with underscore
+snake_cased = (proper_cased.replace(" ", "_"))
 # print output
-print(proper_cased)
+print(snake_cased)
